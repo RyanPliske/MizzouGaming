@@ -1,0 +1,143 @@
+#main 
+{
+width:800px;
+margin: 0 auto;
+}
+
+#main .content
+{
+width:650px;
+text-align:justify;
+color:#000000;
+word-spacing:3px;
+margin: 0 auto;
+}
+
+#main .content p
+{
+margin-top:8px;
+margin-bottom:8px;
+}
+
+#main .content h1
+{
+font-size:19px;
+margin-bottom:12px;
+}
+
+#main .content h2
+{
+font-size:15px;
+margin-bottom:12px;
+}
+
+.img
+{
+float:left;
+}
+
+.clear
+{
+clear:both;
+}
+
+#pagetitle {
+	text-align: center;
+	background-color: #0f0f0f;
+	color: #999;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.left {
+	position: relative;
+	float: left;
+	width: 290px;
+	height: 400px;
+	background-color: rgba(142,140,140,0.43);
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.right {
+	position: relative;
+	float: left;
+	width: 290px;
+	height: 400px;
+	background-color: rgba(142,140,140,0.43);
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+img.store {
+	width: 250px;
+	height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.description {
+	font-size: 12px;
+	width: 250px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.price {
+	position: absolute;
+	color: #e60000;
+	bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.submitbutton {
+	font-weight: bold;
+	color: #525252;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px;
+}
+.submitbutton2{
+	font-weight: bold;
+	color: #525252;
+	text-decoration: none;
+	position: absolute;
+	bottom: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.submitbutton2:hover {
+	color: #efefef;
+	background-color: #a2a2a2;
+	text-decoration: none;
+}
+.submitbutton:hover {
+	color: #efefef;
+	background-color: #a2a2a2;
+	text-decoration: none;
+	border-radius: 0 0 5px 5px;
+}

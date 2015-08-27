@@ -1,0 +1,65 @@
+/* CSS for product_form.php */
+#form_body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	padding-left: 0px;
+	margin: 0 auto;
+}
+#form_body fieldset {
+	border-radius: 5px;
+	border: 1px Solid #4f4f4f;
+	background: rgba(142,140,140,0.43);
+	width: 300px;
+	margin: 0 auto;
+	padding: 5px;
+}
+#form_body fieldset legend {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+#form_body fieldset ul {
+	margin: 0;
+	padding: 0;
+}
+#form_body fieldset ul li {
+	list-style: none;
+	margin-bottom: 3px;
+	text-align: left;
+}
+#form_body fieldset ul li label {
+	width: 120px;
+	float: left;
+}
+#form_body fieldset ul li textarea {
+	resize: none;
+	width: 50%;
+	height: 52px;
+	border: 1px solid #4f4f4f;
+	float: right;
+}
+#form_body fieldset ul li select {
+	width: 150px;
+	border: 1px solid #4f4f4f;
+	float: right;
+}
+#form_body fieldset ul li label em {
+	color: #ff1515;
+	font: 10pt Arial;
+}
+#form_body fieldset ul li input {
+	border: 1px Solid #4f4f4f;
+	font: 8pt Arial;
+	width: 150px;
+	float: right;
+}
+#form_body fieldset ul li input.button {
+	border-radius: 5px;
+	border: 1px Solid #e3e3e3;
+	background: #e3e3e3;
+	font: 8pt Arial;
+	width: 100px;
+}
+#form_body fieldset ul li input.button:hover {
+	border: 1px Solid rgba(0,127,57,0.38);
+	background: rgba(0,127,57,0.38);
+}

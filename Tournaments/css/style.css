@@ -1,0 +1,52 @@
+\#page {
+	width:758px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#main {
+	width:798px;
+	margin: 0 auto;
+}
+
+#main .content {
+	width:650px;
+	text-align:justify;
+	color:#000000;
+	word-spacing:3px;
+	margin: 0 auto;
+}
+
+#main .content p {
+	margin-top:8px;
+	margin-bottom:8px;
+}
+
+#main .content h1 {
+	font-size:19px;
+	margin-bottom:12px;
+}
+
+#main .content h2 {
+	font-size:15px;
+	margin-bottom:12px;
+}
+
+.img {
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+#pagetitle {
+	text-align: center;
+	background-color: #0f0f0f;
+	color: #999;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	font-size: 15px;
+}

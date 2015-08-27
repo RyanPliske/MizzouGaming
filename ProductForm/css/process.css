@@ -1,0 +1,34 @@
+/* CSS for process.php */
+#process {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	margin: 0 auto;
+}
+#process fieldset
+{
+	border: 1px Solid #c8c8c8;
+	background: #f0f0f0;
+	width: 300px;
+	margin: 0 auto;
+	padding: 5px;
+}
+#process fieldset legend
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+#process fieldset ul {
+	margin: 0;
+	padding: 0;
+}
+#process fieldset ul li {
+	list-style: none;
+	margin-bottom: 3px;
+	text-align: left;	
+}
+
+#process fieldset ul li label {
+	width: 100px;
+	float: left;
+}
